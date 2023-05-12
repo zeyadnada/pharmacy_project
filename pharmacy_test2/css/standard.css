@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eff2f1;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.aside {
+    background-color: rgb(38, 38, 71);
+}
+
+.aside__logo img {
+    height: 100px;
+    padding: 12px;
+}
+.aside__text{
+    color: #76b2fe;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.aside__buttonsBox {
+    flex-direction: column;
+
+}
+
+.aside__buttonsBox__button__main:hover {
+    background-color: rgb(176, 170, 181);
+}
+
+.aside__buttonsBox__button__main {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
+    display: list-item;
+    border-top: 1px solid black;
+}
+
+.aside__buttonsBox__button__second a {
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.aside__buttonsBox__button__second a:hover {
+    color: #297726;
+
+}
+
+/* start project body */
+.body {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+}
+
+
+
+.dashboardContent__heading {
+    text-align: center;
+}
+
+.dashboardContent__heading__title {
+    font-weight: 600;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px 4px;
+    padding: 20px;
+    width: 300px;
+    height: 160px;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.card__icon {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card__title {
+    color: #ffffff;
+}
+
+
+
+/* CARD BACKGROUNDS */
+
+.card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+}
+
+.card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+}
+
+.card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+}
+
+.card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+}
+
+.card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+}
+
+/* start  all about update table */
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0px;
+    padding: 0px;
+}
+
+.containerForm__header h2 {
+    color: #3fbafe;
+    padding-bottom: 25px;
+}
+
+.containerForm__updatePharmaciestForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
